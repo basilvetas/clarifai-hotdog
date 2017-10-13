@@ -18,6 +18,8 @@ The Tornado Web Server is located in the file hotdog.py. To start server on loca
 
 	python3 hotdog.py
 
+(note sometimes the first time you run the server Clarifai API responds with an error -- if this happens just re-run it)
+
 The AngularJS Client is located in the file index.html. To start client on localhost:8080:
 
 	http-server
