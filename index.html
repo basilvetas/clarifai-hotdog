@@ -36,6 +36,7 @@
 	  <link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>  	  
 		<style type="text/css">
 			body { padding: 50px 50px; text-align: center; }
+			img {max-width: 50%}
 		</style>
 		
 	</head>
@@ -47,6 +48,7 @@
 					 <input type="submit" ng-click="predict(url)"/>
 				</form>
 			  <h3 ng-if="prediction">{{prediction}} <br />{{confidence}}</h3>
+			  <div ng-if="prediction" class="row"><img ng-src="{{url}}" /></div>
 			</div>			
 	</body>	
 </html>
