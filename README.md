@@ -24,4 +24,4 @@ The AngularJS Client is located in the file index.html. To start client on local
 
 	http-server
 
-Example URL to submit: http://bit.ly/2xDnq7Z
+Example URL to submit: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hot_dog_with_mustard.png/1200px-Hot_dog_with_mustard.png
