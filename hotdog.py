@@ -51,7 +51,7 @@ def predictImage(app, url):
 	return pred
 
 # Trains the Clarifai app model, passes app object into request handler
-def make_app():	
+def makeApp():	
 	app = ClarifaiApp(api_key=open("key.txt").read())
 	app = clearApp(app)
 	app = trainModel(app)		
@@ -61,6 +61,6 @@ def make_app():
 	])
 
 if __name__ == '__main__':	
-	app = make_app()
+	app = makeApp()
 	app.listen(7777)
 	IOLoop.current().start()
